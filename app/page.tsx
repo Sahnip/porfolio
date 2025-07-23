@@ -1,4 +1,4 @@
-import { Mail, Phone, Linkedin } from "lucide-react"
+import { Mail, Phone, Linkedin, FileUser } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export default function Component() {
@@ -30,7 +30,7 @@ export default function Component() {
 
       {/* Main Card */}
       <div className="relative z-10 w-full max-w-md">
-        <div className="bg-gray-900/20 backdrop-blur-md rounded-2xl p-8 shadow-2xl border border-white/20">
+        <div className="bg-gray-500/20 backdrop-blur-md rounded-2xl p-8 shadow-2xl border border-white/20">
           {/* Header */}
           <div className="text-center mb-8">
             <div className="flex items-center justify-center gap-2 mb-4">
@@ -51,7 +51,7 @@ export default function Component() {
           {/* Contact Information */}
           <div className="space-y-4">
             {/* Email */}
-            <div className="flex items-center gap-3 p-3 bg-gray-800/50 rounded-lg border border-gray-700/50 hover:border-gray-600/50 transition-colors">
+            <div className="flex items-center gap-3 p-3 bg-gray-800/50 rounded-lg transition-colors border border-white/30 hover:border-gray-600/50">
               <Mail className="w-5 h-5 text-blue-400" />
               <a href="mailto:contact@s4h.online" className="text-gray-300 hover:text-white transition-colors flex-1">
                 contact@s4h.online
@@ -59,7 +59,7 @@ export default function Component() {
             </div>
 
             {/* Phone */}
-            <div className="flex items-center gap-3 p-3 bg-gray-800/50 rounded-lg border border-gray-700/50 hover:border-gray-600/50 transition-colors">
+            <div className="flex items-center gap-3 p-3 bg-gray-800/50 rounded-lg transition-colors border border-white/30 hover:border-gray-600/50">
               <Phone className="w-5 h-5 text-green-400" />
               <a href="tel:+33762632743" className="text-gray-300 hover:text-white transition-colors flex-1">
                 +33 7 62 63 27 43
@@ -67,7 +67,7 @@ export default function Component() {
             </div>
 
             {/* LinkedIn */}
-            <Button asChild className="w-full bg-[#0077b5] hover:bg-[#005885] text-white border-0 h-12">
+            <Button asChild className="w-full bg-[#0077b5] hover:bg-[#005885] text-white h-12 border border-[#3994c5] hover:border-gray-600/50">
               <a
                 href="https://www.linkedin.com/in/arie-roumani-91468b1b0"
                 target="_blank"
@@ -81,8 +81,19 @@ export default function Component() {
           </div>
 
           {/* Footer */}
-          <div className="mt-8 pt-6 border-t border-gray-200/50 font-mono">
-            <p className="text-center text-gray-200 text-xs">Disponible pour nouveaux projets</p>
+          <div className="flex justify-center items-center mt-8 pt-6 border-t border-gray-200/50 font-mono">
+            <p className="text-center text-gray-200 text-xs">Disponible pour de nouveaux projets</p>
+            <Button asChild className="w-max ml-auto bg-blue-500/70 hover:bg-[#005885] text-white border h-12 border-white/10">
+              <a
+                href="./cv.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-3"
+              >
+                <FileUser className="w-5 h-5" />
+                Voir CV
+              </a>
+            </Button>
           </div>
         </div>
       </div>
