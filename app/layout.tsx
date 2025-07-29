@@ -10,7 +10,7 @@ import { Geist } from 'geist';
 
 
 export const metadata: Metadata = {
-  title: "S4h - Developpeur Web Fullstack",
+  title: "S4h",
   description: "Contact professionnel - Développeur Web Fullstack",
     generator: 's4h.online'
 }

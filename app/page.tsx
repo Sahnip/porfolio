@@ -1,4 +1,4 @@
-import { Mail, Phone, Linkedin, FileUser } from "lucide-react"
+import { Mail, Phone, Linkedin, FileUser, LayoutGrid } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export default function Component() {
@@ -50,18 +50,25 @@ export default function Component() {
 
           {/* Contact Information */}
           <div className="space-y-4">
+            {/* Projects */}
+            <div className="flex items-center justify-center gap-3 p-3 rounded-lg transition-colors border  bg-blue-500/70 hover:bg-blue-700/70 text-white border h-12 border-white/10">
+              <LayoutGrid className="w-5 h-5 text-white " />
+              <a href="/projects" className="text-gray-300 hover:text-white transition-colors flex items-center justify-center gap-3">
+              Projets en ligne
+              </a>
+            </div>
             {/* Email */}
-            <div className="flex items-center gap-3 p-3 bg-gray-800/50 rounded-lg transition-colors border border-white/30 hover:border-gray-600/50">
-              <Mail className="w-5 h-5 text-blue-400" />
-              <a href="mailto:contact@s4h.online" className="text-gray-300 hover:text-white transition-colors flex-1">
+            <div className="flex items-center justify-center gap-3 p-3 bg-gray-800/50 rounded-lg transition-colors border border-white/30 hover:border-gray-600/50">
+              <Mail className="w-5 h-5 text-blue-400 " />
+              <a href="mailto:contact@s4h.online" className="text-gray-300 hover:text-white transition-colors flex items-center justify-center gap-3">
                 contact@s4h.online
               </a>
             </div>
 
             {/* Phone */}
-            <div className="flex items-center gap-3 p-3 bg-gray-800/50 rounded-lg transition-colors border border-white/30 hover:border-gray-600/50">
-              <Phone className="w-5 h-5 text-green-400" />
-              <a href="tel:+33762632743" className="text-gray-300 hover:text-white transition-colors flex-1">
+            <div className="flex items-center justify-center gap-3 p-3 bg-gray-800/50 rounded-lg transition-colors border border-white/30 hover:border-gray-600/50 ">
+              <Phone className="w-5 h-5 text-green-400 " />
+              <a href="tel:+33762632743" className="text-gray-300 hover:text-white transition-colors flex items-center justify-center gap-3">
                 +33 7 62 63 27 43
               </a>
             </div>
