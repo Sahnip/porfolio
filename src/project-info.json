@@ -1,0 +1,110 @@
+[
+    {
+      "id": "ecommerce-app",
+      "title": "E-commerce Platform",
+      "description":
+        "Une plateforme e-commerce complète développée avec les dernières technologies web. Cette application offre une expérience utilisateur fluide avec un système de panier avancé, intégration de paiements sécurisés via Stripe, gestion complète des commandes et interface d'administration. L'architecture modulaire permet une scalabilité optimale et des performances élevées.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "technologies": ["React", "Next.js", "TypeScript", "Stripe", "Prisma", "PostgreSQL", "Tailwind CSS"],
+      "demoUrl": "https://demo-ecommerce.example.com",
+      "githubUrl": "https://github.com/username/ecommerce-app",
+      "features": [
+        "Système de panier et checkout sécurisé",
+        "Gestion des utilisateurs et authentification",
+        "Interface d'administration complète",
+        "Intégration de paiements Stripe",
+        "Gestion des stocks en temps réel",
+        "Responsive design optimisé"
+      ]
+    },
+    {
+      "id": "task-manager",
+      "title": "Task Management App",
+      "description":
+        "Application collaborative de gestion de tâches conçue pour optimiser la productivité des équipes. Intègre des fonctionnalités de temps réel grâce à Socket.io, permettant une synchronisation instantanée entre tous les utilisateurs. L'interface intuitive facilite la création, l'assignation et le suivi des tâches avec un système de notifications push.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "technologies": ["Vue.js", "Node.js", "Socket.io", "MongoDB", "Express", "JWT"],
+      "demoUrl": "https://demo-tasks.example.com",
+      "githubUrl": "https://github.com/username/task-manager",
+      "features": [
+        "Collaboration en temps réel",
+        "Système de notifications push",
+        "Gestion des équipes et permissions",
+        "Tableaux Kanban interactifs",
+        "Suivi du temps et rapports",
+        "API REST complète"
+      ]
+    },
+    {
+      "id": "weather-dashboard",
+      "title": "Weather Dashboard",
+      "description":
+        "Dashboard météorologique avancé offrant des prévisions détaillées et des visualisations interactives. Utilise l'API OpenWeather pour des données en temps réel et D3.js pour créer des graphiques dynamiques. L'interface responsive s'adapte parfaitement à tous les appareils avec des cartes interactives et des animations fluides.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "technologies": ["React", "D3.js", "OpenWeather API", "Tailwind CSS", "Leaflet", "Chart.js"],
+      "demoUrl": "https://demo-weather.example.com",
+      "githubUrl": "https://github.com/username/weather-dashboard",
+      "features": [
+        "Prévisions météo détaillées",
+        "Cartes interactives avec Leaflet",
+        "Graphiques animés avec D3.js",
+        "Géolocalisation automatique",
+        "Historique des données météo",
+        "Alertes météorologiques"
+      ]
+    },
+    {
+      "id": "blog-cms",
+      "title": "Blog CMS",
+      "description":
+        "Système de gestion de contenu moderne spécialement conçu pour les blogs. Intègre un éditeur riche WYSIWYG, optimisation SEO automatique et gestion des médias. L'architecture headless avec Sanity permet une flexibilité maximale et des performances optimales. Interface d'administration intuitive pour une gestion de contenu simplifiée.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "technologies": ["Next.js", "Sanity", "TypeScript", "Vercel", "React Hook Form"],
+      "demoUrl": "https://demo-blog.example.com",
+      "githubUrl": "https://github.com/username/blog-cms",
+      "features": [
+        "Éditeur WYSIWYG avancé",
+        "Optimisation SEO automatique",
+        "Gestion des médias intégrée",
+        "Prévisualisation en temps réel",
+        "Système de commentaires",
+        "Analytics intégrés"
+      ]
+    },
+    {
+      "id": "crypto-tracker",
+      "title": "Crypto Tracker",
+      "description":
+        "Application de suivi des cryptomonnaies en temps réel avec des fonctionnalités avancées d'analyse technique. Intègre l'API CoinGecko pour des données de marché précises et Chart.js pour des visualisations interactives. Système d'alertes personnalisables et portfolio tracking pour un suivi complet des investissements.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "technologies": ["React", "Chart.js", "CoinGecko API", "Redux", "Material-UI", "WebSocket"],
+      "demoUrl": "https://demo-crypto.example.com",
+      "githubUrl": "https://github.com/username/crypto-tracker",
+      "features": [
+        "Données en temps réel",
+        "Graphiques techniques avancés",
+        "Système d'alertes de prix",
+        "Suivi de portfolio",
+        "Analyse de tendances",
+        "Interface responsive"
+      ]
+    },
+    {
+      "id": "portfolio-website",
+      "title": "Portfolio Website",
+      "description":
+        "Site portfolio moderne et responsive mettant en valeur les compétences et réalisations. Utilise Framer Motion pour des animations fluides et engageantes. Optimisé pour les performances avec Next.js et déployé sur Vercel. Design minimaliste et élégant avec une attention particulière à l'expérience utilisateur.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "technologies": ["Next.js", "Framer Motion", "Tailwind CSS", "TypeScript", "Vercel"],
+      "demoUrl": "https://demo-portfolio.example.com",
+      "githubUrl": "https://github.com/username/portfolio-website",
+      "features": [
+        "Animations Framer Motion",
+        "Design responsive élégant",
+        "Optimisation des performances",
+        "SEO optimisé",
+        "Formulaire de contact",
+        "Mode sombre/clair"
+      ]
+    }
+  ]
